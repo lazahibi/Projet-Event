@@ -1,0 +1,81 @@
+    @import url(https://fonts.googleapis.com/css?family=Dosis:300|Lato:300,400,600,700|Roboto+Condensed:300,700|Open+Sans+Condensed:300,600|Open+Sans:400,300,600,700|Maven+Pro:400,700);
+
+
+    body
+    {
+        background-color: rgba(200,200,200,0.2);
+        font-family: "Open Sans";
+    }
+    h2
+    {
+    	color: white;
+    	font-size: 18px;
+    	width: 200px
+    }
+
+    p
+    {
+        position: relative;
+        bottom: 220px;
+    }
+
+    .block
+    {
+         text-align: center;
+         margin: auto;
+         margin-top: 60px;
+         padding: 75px;
+         border: 1px solid black;
+         width: 300px;
+         height: 200px;
+         background-color: white;
+         box-shadow: 0px 10px rgba(100, 100, 100, 0.3);
+    }
+
+   
+    .titre
+    {
+     	position: relative;
+        top: -100px;
+        left: 0px;
+        width: 300px;
+        text-align: center;
+     	margin: auto;
+     	text-align: center;
+		background-color: #6d6d6d;
+		border: 1px solid rgb(165,38,10);
+		border-radius: 20px 20px 0px 0px;
+    }
+
+    .fr
+    {
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        width: 150px;
+        padding: 7px;
+        background:#9b59b6; 
+        border:0 none;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px; 
+        position: relative;
+        bottom: -50px;
+    }
+
+    .fr:hover
+    {
+        background:#724684; 
+    }
+
+    input[type=text], input[type=password]
+    {
+        size: 150px;
+        height: 30px;
+        padding: 10px;
+        border: 1px solid rgb(210,210,210);
+        border-radius: 10px 10px 10px 10px;
+        font-size: 18px;
+        position: relative;
+        left: -40px
+    }

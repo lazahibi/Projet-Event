@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 60vw;
+  margin: auto;
+  background-color: #f9f9f9; }
+
+div.contenaire {
+  background-color: #e0e0e0;
+  height: 100%; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px; }
+
+div.presentation {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #9b59b6;
+  color: white;
+  text-align: center;
+  padding: 20px; }
+
+article {
+  background-color: white;
+  margin: 35px;
+  padding: 35px; }
+article input[type=text] {
+  size: 150px;
+  height: 40px;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 20px;
+  border: 1px solid #d2d2d2;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 18px;
+  position: relative;
+  left: -40px; }
+
+div.input {
+  margin: auto;
+  text-align: center; }
+
+input[type=submit] {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  width: 150px;
+  padding: 7px;
+  background-color: #9b59b6;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px; }
+
+input[type=submit]:hover {
+  background-color: #724684; }
+
+#map {
+  height: 400px;
+  width: 100%; }
+
+/*# sourceMappingURL=styleform.css.map */

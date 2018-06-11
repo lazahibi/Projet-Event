@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: auto;
+  background-color: #f9f9f9; }
+
+table {
+  border-collapse: collapse;
+  width: 78vw;
+  
+   }
+  table td, table th {
+    font-size: 14px;
+    text-align: center;
+    width: 70px;
+    border: 1px solid #d2d2d2; }
+  p#desc {
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 15vw; }
+  table [class^='participant'] td, table [class^='participant'] th {
+    padding: 20px; }
+  table [class^='participant'] tr:nth-child(odd):not(.titre) {
+    background-color: rgba(174, 154, 183, 0.2); }
+  table th {
+    background-color: #9b59b6;
+    color: white; }
+  div.contenue {
+    margin-left: 19%; }
+  nav {
+    position: fixed;
+    width: 15vw;
+    height: 100vh;
+    background-color: dimgrey;
+    color: white;
+    float: left;
+    text-align: center; }
+  ul {
+  list-style: none;
+  width: inherit; }
+  ul li {
+    padding: 20px; }
+  ul li.sousmenu {
+    padding: 10px; }
+  ul li#select {
+    background-color: #494949; }
+  ul#deco {
+  position: absolute;
+  bottom: -2%; }
+  ul#deco li:hover {
+    background-color: #db6074; }
+  ul a, ul a:hover {
+  text-decoration: none;
+  color: white; }
+  div#atelier {
+  margin-left: 30px; }
+  input[type='submit'], .gllpSearchButton {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  width: 150px;
+  padding: 7px;
+  background-color: #9b59b6;
+  border: 0 none;
+  border-radius: 5px; }
+  input[type='submit']:hover, button.gllpSearchButton:hover {
+  background-color: #724684; }
+
+/*# sourceMappingURL=style.css.map */
